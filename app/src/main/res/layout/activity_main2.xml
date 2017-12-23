@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samychen.gracefulwrapper.androidscreenadapter.percentlayout.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samychen.gracefulwrapper.androidscreenadapter.percentlayout.Main2Activity">
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="helloworld"
+        android:background="@color/colorAccent"
+        app:layout_widthPrecent="0.5"
+        app:layout_heightPrecent="0.5"/>
+</com.samychen.gracefulwrapper.androidscreenadapter.percentlayout.PercentRelativeLayout>
